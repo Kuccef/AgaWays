@@ -5,12 +5,15 @@ A platform to improve public transport user experience in Agadir with real-time 
 
 ## Interface Utilisateur Conviviale
 Pages d'accueil, de planification, de consultation des horaires
+
 Gestion des notifications
+
 Authentification et gestion des profils utilisateurs
 
 ## Suivi en Temps Réel (Tracking Bus)
 
 Intégration avec les APIs de suivi des bus en temps réel
+
 Affichage des positions des bus sur une carte
 
 ## Horaires et Itinéraires
