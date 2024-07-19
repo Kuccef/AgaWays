@@ -3,167 +3,205 @@ A platform to improve public transport user experience in Agadir with real-time 
 
 # Modules à Développer
 
-## Interface Utilisateur Conviviale
-Pages d'accueil, de planification, de consultation des horaires
+ ## Interface Utilisateur Conviviale
+ 
+   - Pages d'accueil, de planification, de consultation des horaires
 
-Gestion des notifications
+   - Gestion des notifications
 
-Authentification et gestion des profils utilisateurs
+   - Authentification et gestion des profils utilisateurs
 
-## Suivi en Temps Réel (Tracking Bus)
+ ## Suivi en Temps Réel (Tracking Bus)
 
-Intégration avec les APIs de suivi des bus en temps réel
+   - Intégration avec les APIs de suivi des bus en temps réel
 
-Affichage des positions des bus sur une carte
+   - Affichage des positions des bus sur une carte
 
-## Horaires et Itinéraires
+ ## Horaires et Itinéraires
 
-Consultation des horaires en temps réel
-Planification des trajets
+   - Consultation des horaires en temps réel
 
-## Notifications et Alertes
+   - Planification des trajets
 
-Envoi et gestion des notifications en temps réel
-Paramètres de notification utilisateur
+ ## Notifications et Alertes
+
+   - Envoi et gestion des notifications en temps réel
+  
+   - Paramètres de notification utilisateur
 
 # Liste de Fonctionnalités par Module
 
-## Interface Utilisateur Conviviale
+ ## Interface Utilisateur Conviviale
 
-### Page d'Accueil
+   ### Page d'Accueil
 
-Présentation générale de la plateforme
-Accès rapide aux principales fonctionnalités
+   - Présentation générale de la plateforme
 
-### Page de Planification de Trajet
+   - Accès rapide aux principales fonctionnalités
 
-Sélection du point de départ et de destination
-Calcul et affichage des itinéraires
+   ### Page de Planification de Trajet
 
-### Page de Consultation des Horaires
+   - Sélection du point de départ et de destination
+     
+   - Calcul et affichage des itinéraires
 
-Affichage des horaires en temps réel
-Recherche par ligne et arrêt
+   ### Page de Consultation des Horaires
 
-### Gestion des Notifications
+   - Affichage des horaires en temps réel
+     
+   - Recherche par ligne et arrêt
 
-Affichage des notifications en temps réel
-Paramètres de notification utilisateur
+   ### Gestion des Notifications
 
-### Authentification et Profil Utilisateur
+   - Affichage des notifications en temps réel
+     
+   - Paramètres de notification utilisateur
 
-Inscription, connexion, déconnexion
-Gestion du profil utilisateur
+   ### Authentification et Profil Utilisateur
 
-### Suivi en Temps Réel (Tracking Bus)
+   - Inscription, connexion, déconnexion
 
-### Intégration avec API de Suivi
+   - Gestion du profil utilisateur
 
-Connexion aux services de suivi en temps réel des bus
-Gestion des données de suivi
+   ## Suivi en Temps Réel (Tracking Bus)
+   
+   #### Intégration avec API de Suivi
 
-## Affichage sur Carte
+   - Connexion aux services de suivi en temps réel des bus
+     
+   - Gestion des données de suivi
 
-Visualisation des bus en temps réel sur une carte interactive
-Mise à jour en temps réel des positions
+   #### Affichage sur Carte
+
+   - Visualisation des bus en temps réel sur une carte interactive
+
+   - Mise à jour en temps réel des positions
  
-## Horaires et Itinéraires
+  ## Horaires et Itinéraires
 
-### Consultation des Horaires
+   #### Consultation des Horaires
 
-Récupération des horaires en temps réel via API
-Affichage des horaires pour les lignes et arrêts sélectionnés
+   - Récupération des horaires en temps réel via API
+       
+   - Affichage des horaires pour les lignes et arrêts sélectionnés
 
-### Planification des Trajets
+   ### Planification des Trajets
 
-Calcul des itinéraires optimaux
-Affichage des trajets possibles avec horaires et correspondances
+   - Calcul des itinéraires optimaux
+       
+   - Affichage des trajets possibles avec horaires et correspondances
 
-### Notifications et Alertes
+## Notifications et Alertes
+     
+   ### Envoi de Notifications
 
-#### Envoi de Notifications
+   - Configuration de Firebase Cloud Messaging
+          
+   - Envoi de notifications en temps réel aux utilisateurs
 
-Configuration de Firebase Cloud Messaging
-Envoi de notifications en temps réel aux utilisateurs
+   ### Paramètres de Notifications
 
-#### Paramètres de Notifications
-
-Gestion des préférences de notification utilisateur
-Envoi d'alertes en cas de perturbations ou d'annulations
+   - Gestion des préférences de notification utilisateur
+          
+   - Envoi d'alertes en cas de perturbations ou d'annulations
 
 # Liste des Tâches par Fonctionnalité
 
-## Interface Utilisateur Conviviale
-## Page d'Accueil
+  ## Interface Utilisateur Conviviale
 
-Conception UI/UX
-Implémentation HTML/CSS
-Intégration des Composants React
+   ### Page d'Accueil
 
-## Page de Planification de Trajet
+   - Conception UI/UX
 
-Conception UI/UX
-Développement de l'interface de planification
-Intégration avec l'API de calcul d'itinéraire
+   - Implémentation HTML/CSS
 
-## Page de Consultation des Horaires
+   - Intégration des Composants React
 
-Conception UI/UX
-Développement de l'interface de consultation
-Intégration avec l'API des horaires en temps réel
+   ### Page de Planification de Trajet
 
-## Gestion des Notifications
+   - Conception UI/UX
 
-Configuration de Firebase Cloud Messaging
-Développement de l'interface de gestion des notifications
-Intégration des notifications push
+   - Développement de l'interface de planification
 
-## Authentification et Profil Utilisateur
+   - Intégration avec l'API de calcul d'itinéraire
 
-Développement des formulaires d'inscription et de connexion
-Implémentation de l'authentification avec JWT
-Gestion du profil utilisateur
+   ### Page de Consultation des Horaires
 
-## Suivi en Temps Réel (Tracking Bus)
-## Intégration avec API de Suivi
+   - Conception UI/UX
 
-Recherche et sélection d'API de suivi en temps réel
-Implémentation de la connexion à l'API
-Gestion des données de suivi (parsing, mise à jour)
+   - Développement de l'interface de consultation
 
-## Affichage sur Carte
+   - Intégration avec l'API des horaires en temps réel
 
-Sélection et intégration de librairie de cartes (e.g., Leaflet, Google Maps)
-Développement de l'interface de suivi sur carte
-Mise à jour en temps réel des positions des bus
+   ### Gestion des Notifications
 
-## Horaires et Itinéraires
-## Consultation des Horaires
+   - Configuration de Firebase Cloud Messaging
 
-Recherche et intégration d'API de données horaires
-Développement des endpoints pour récupérer les horaires
-Affichage des horaires sur l'interface utilisateur
+   - Développement de l'interface de gestion des notifications
 
-## Planification des Trajets
+   - Intégration des notifications push
 
-Développement de l'algorithme de calcul d'itinéraire
-Intégration des données horaires pour calcul d'itinéraire
-Affichage des itinéraires sur l'interface utilisateur
+   ### Authentification et Profil Utilisateur
 
-## Notifications et Alertes
-## Envoi de Notifications
+   - Développement des formulaires d'inscription et de connexion
 
-Configuration de Firebase Cloud Messaging
-Développement des endpoints pour envoyer des notifications
-Gestion de l'envoi des notifications en temps réel
+   - Implémentation de l'authentification avec JWT
 
-## Paramètres de Notifications
+   - Gestion du profil utilisateur
 
-Développement de l'interface utilisateur pour les paramètres de notification
-Gestion des préférences de notification dans la base de données
-Envoi d'alertes en fonction des préférences utilisateur
+   ### Suivi en Temps Réel (Tracking Bus)
+   ### Intégration avec API de Suivi
 
-## API Externes
+   - Recherche et sélection d'API de suivi en temps réel
+     
+   - Implémentation de la connexion à l'API
+     
+   - Gestion des données de suivi (parsing, mise à jour)
 
-API des Transports en Commun d'Agadir (ou autre source de données en temps réel)
-Firebase Cloud Messaging pour les notifications push
+   ### Affichage sur Carte
+
+   - Sélection et intégration de librairie de cartes (e.g., Leaflet, Google, Maps)
+
+   - Développement de l'interface de suivi sur carte
+
+   - Mise à jour en temps réel des positions des bus
+
+   ### Horaires et Itinéraires
+   ### Consultation des Horaires
+
+   - Recherche et intégration d'API de données horaires
+
+   - Développement des endpoints pour récupérer les horaires
+
+   - Affichage des horaires sur l'interface utilisateur
+
+   ### Planification des Trajets
+
+   - Développement de l'algorithme de calcul d'itinéraire
+
+   - Intégration des données horaires pour calcul d'itinéraire
+
+   - Affichage des itinéraires sur l'interface utilisateur
+
+   ### Notifications et Alertes
+   ### Envoi de Notifications
+
+   - Configuration de Firebase Cloud Messaging
+
+   - Développement des endpoints pour envoyer des notifications
+
+   - Gestion de l'envoi des notifications en temps réel
+
+   ### Paramètres de Notifications
+
+   - Développement de l'interface utilisateur pour les paramètres de notification
+
+   - Gestion des préférences de notification dans la base de données
+     
+   - Envoi d'alertes en fonction des préférences utilisateur
+
+# API Externes
+
+   - API des Transports en Commun d'Agadir (ou autre source de données en temps réel)
+     
+   - Firebase Cloud Messaging pour les notifications push
